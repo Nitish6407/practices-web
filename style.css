@@ -1,0 +1,62 @@
+button:active{
+    background-color: red;
+}
+input:focus{
+    border: 10px dotted blue;
+    background-color: bisque;
+}
+/* input{
+    outline:none;
+} */
+
+/* ul li:nth-child(even){
+    background-color: red;
+} */
+/* ul li:nth-child(3n){
+    background-color: red;
+} */
+/* 4 7 11... */
+/* every list ka 3rd number color ho jayega */
+ul li:nth-child(3){
+    background-color: red;
+}
+/* p::before{
+    content: "Note: ";
+    font-weight: bold;
+} */
+
+/* p::first-line{
+    font-weight: bold;
+    color: blue;
+} */
+pre::first-line{
+    font-weight: bold;
+    color: blue;
+}
+/* .px1{
+    background-color: red;
+    width:100px;
+} */
+/* .px1{
+    background-color: red;
+    width:50%;
+} */
+.px1{
+    background-color: red;
+    width:500px;
+}
+.percent1{
+    background-color: blue;
+    width:50%;
+}
+.vp1{
+    background-color: blue;
+    width: 50vw;
+}
+p{
+    font-size: 2rem;
+}
+
+/* html{
+    font-size: 20px;
+} */
